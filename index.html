@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inglaterra Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="title">
+    <h1>Inglaterra Calculadora</h1>
+  </div>
+
+  <div class="container">
+    <div class="buttons-panel">
+      <h2>Preço Sem Parceria</h2>
+      <button onclick="addToCart('Fajuta', 150000)">Fajuta - R$ 150.000</button>
+      <button onclick="addToCart('Five Seven', 300000)">Five Seven - R$ 300.000</button>
+      <button onclick="addToCart('AP Pistol', 300000)">AP Pistol - R$ 300.000</button>
+      <button onclick="addToCart('Tec-9', 450000)">Tec-9 - R$ 450.000</button>
+      <button onclick="addToCart('SMG MK2', 500000)">SMG MK2 - R$ 500.000</button>
+      <button onclick="addToCart('MP-5', 600000)">MP-5 - R$ 600.000</button>
+      <button onclick="addToCart('UZI', 600000)">UZI - R$ 600.000</button>
+      <button onclick="addToCart('AK-47', 675000)">AK-47 - R$ 675.000</button>
+      <button onclick="addToCart('AK-MK2', 750000)">AK-MK2 - R$ 750.000</button>
+      <button onclick="addToCart('G3', 950000)">G3 - R$ 950.000</button>
+      <button onclick="addToCart('Parafal', 1500000)">Parafal - R$ 1.500.000</button>
+
+      <h2>Preço de Parceria</h2>
+      <button onclick="addToCart('Fajuta', 100000)">Fajuta - R$ 100.000</button>
+      <button onclick="addToCart('Five Seven', 200000)">Five Seven - R$ 200.000</button>
+      <button onclick="addToCart('AP Pistol', 250000)">AP Pistol - R$ 250.000</button>
+      <button onclick="addToCart('Tec-9', 350000)">Tec-9 - R$ 350.000</button>
+      <button onclick="addToCart('SMG MK2', 450000)">SMG MK2 - R$ 450.000</button>
+      <button onclick="addToCart('MP-5', 500000)">MP-5 - R$ 500.000</button>
+      <button onclick="addToCart('UZI', 500000)">UZI - R$ 500.000</button>
+      <button onclick="addToCart('AK-47', 625000)">AK-47 - R$ 625.000</button>
+      <button onclick="addToCart('AK-MK2', 700000)">AK-MK2 - R$ 700.000</button>
+      <button onclick="addToCart('G3', 850000)">G3 - R$ 850.000</button>
+      <button onclick="addToCart('Parafal', 1200000)">Parafal - R$ 1.200.000</button>
+    </div>
+
+    <div class="cart-info">
+      <p>Total: R$ <span id="total">0</span></p>
+      <h3>Quantidades:</h3>
+      <div id="quantities"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
